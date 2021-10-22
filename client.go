@@ -1,4 +1,4 @@
-package localutils
+package main
 
 import "fmt"
 
@@ -8,5 +8,6 @@ func main() {
 	if !success {
 		panic(success)
 	}
-	fmt.Printf(out)
+
+	fmt.Printf("%+q", out)
 }

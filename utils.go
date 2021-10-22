@@ -1,4 +1,4 @@
-package localutils
+package main
 
 import "reflect"
 
